@@ -1,0 +1,25 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  th {
+    background-color: orange;
+  }
+  tr:hover {
+    background: #f5f5f5;
+  }
+  h1 {
+    color: red;
+  }
+  .foo {
+    text-align: center;
+  }
+  

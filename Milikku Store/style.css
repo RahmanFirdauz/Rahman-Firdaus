@@ -74,7 +74,12 @@ body {
   margin: 0.5rem;
 }
 
-#hamburger-menu {
+.navbar .navbar-extra a:hover {
+  color: var(--primary);
+  margin: 0.5rem;
+}
+
+#menu {
   display: none;
 }
 
@@ -91,6 +96,19 @@ body {
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
+  }
+  #menu {
+    display: inline-block;
+  }
+
+  .navbar .navbar-nav {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fff;
+    width: 30rem;
+    height: 100vh;
   }
 }
 
